@@ -16,7 +16,8 @@
   "name": "bot",
   "version": "0.0.0",
   "scripts": {
-    "build": "yarn tsc"
+    "build": "yarn tsc",
+    "lint": "yarn run eslint ./src --ext .js,.jsx,.ts,.tsx"
   },
   "keywords": [
   ],

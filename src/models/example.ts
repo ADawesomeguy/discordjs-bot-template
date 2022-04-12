@@ -3,7 +3,7 @@
 import mongoose from 'mongoose';
 
 const exampleSchema = new mongoose.Schema({
-    example: String,
+	example: String,
 });
 
 export default mongoose.model('Example', exampleSchema);

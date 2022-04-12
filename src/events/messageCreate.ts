@@ -1,7 +1,3 @@
-import { MessageEmbed } from 'discord.js';
-
-import axios from 'axios';
-
 import { testingGuild } from '../helpers/env';
 
 export const name = 'messageCreate';
@@ -12,6 +8,6 @@ export async function execute(message) {
 	if (message.author.bot || message.guild.id != testingGuild) return;
 
 	if (message.content.startsWith('!p')) {
-        message.reply('This can only be seen in the testing guild!');
+		message.reply('This can only be seen in the testing guild!');
 	}
 }
